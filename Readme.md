@@ -1,6 +1,6 @@
 # QA Engineer eFishery Challenge
 #### Full Name : Muhammad Luthfi Rasyid Pane 
-#### Date : 15 March 2021
+#### Date : 7 September 2021
 #### Applied Position : QA Engineer
 <br>
 
