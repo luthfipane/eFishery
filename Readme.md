@@ -71,4 +71,4 @@ How to run : <br>
 
 - Running the main file <br>
 
- ![Drag Racing](running.png)
+ ![alt text](https://github.com/luthfipane/eFishery/blob/main/Running.png "Running Java")
