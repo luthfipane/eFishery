@@ -21,7 +21,7 @@ public class SignIn extends PropertiesData {
         Thread.sleep(2000);
         driver.findElement(By.xpath(btn_next)).click();
         List<WebElement> list = driver.findElements(By.xpath(btn_signIn));
-        Assert.assertTrue("Text not found!", list.size() > 0);
+        Assert.assertTrue("Element Not Found!", list.size() > 0);
         driver.quit();
     }
 
@@ -36,10 +36,8 @@ public class SignIn extends PropertiesData {
         driver.findElement(By.xpath(txt_password)).sendKeys(incorrectpassword);
         Thread.sleep(2000);
         driver.findElement(By.xpath(btn_next)).click();
-        List<WebElement> object = new ArrayList<WebElement>();
-        object = driver.findElements(By.xpath(btn_signIn));
-        assertEquals(object.size(), 0);
-        Thread.sleep(1000);
+        List<WebElement> list = driver.findElements(By.xpath(btn_signIn));
+        Assert.assertTrue("Element Not Found!", list.size() > 0);
         driver.quit();
     }
 
