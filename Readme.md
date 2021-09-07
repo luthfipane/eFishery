@@ -47,13 +47,13 @@ README.md menjalankan testnya
 | Test Case ID | Test Scenario | Test Steps | Test Data | Expected Results | Actual Results | Pass / Fail |
 | --- | --- | --- | --- | --- | --- | --- |
 | LOG-001 | Verify user login with valid data | <ul><li>User Open Url</li><li>User click button "SignIn"</li><li>User input valid email</li><li>User input valid password</li><li> User directed to home of url</ul>|<ul><li>var email = "fabelio.test@gmail.com" </li><li>var password = "fabelio123"</li><li>var url = "https://music.youtube.com"</li></ul> | User successfully login and directed to homepage | As Expected | PASS |
-| LOG-002 | Verify user can not login with invalid data | <ul><li>User Open Url</li><li>User click button "SignIn"</li><li>User input valid email</li><li>User input invalid password</li><li> User get error message "incorrect password"</ul>|<ul><li>var email = "fabelio.test@gmail.com" </li><li>var password = "fabelio12345"</li><li>var url = "https://music.youtube.com"</li></ul> | User successfully login and directed to homepage | As Expected | PASS |
+| LOG-002 | Verify user can not login with invalid data | <ul><li>User Open Url</li><li>User click button "SignIn"</li><li>User input valid email</li><li>User input invalid password</li><li> User get error message "incorrect password"</ul>|<ul><li>var email = "fabelio.test@gmail.com" </li><li>var password = "fabelio12345"</li><li>var url = "https://music.youtube.com"</li></ul> | User unsuccessfully login | As Expected | PASS |
 <br>
 Search <br>
 
 | Test Case ID | Test Scenario | Test Steps | Test Data | Expected Results | Actual Results | Pass / Fail |
 | --- | --- | --- | --- | --- | --- | --- |
-| SRC-001 | Verify user play song using searchbox | <ul><li>User Open Url</li><li>User click icon search button </li><li>User input name of band</li><li>User directed to search result page</li><li> User click name of song</ul>|<ul><li>var band = "the 1975" </li><li>var song = "Somebody Else"</li><li>var url = "https://music.youtube.com"</li></ul> | User successfully login and directed to homepage | As Expected | PASS |
+| SRC-001 | Verify user play song using searchbox | <ul><li>User Open Url</li><li>User click icon search button </li><li>User input name of band</li><li>User directed to search result page</li><li> User click name of song</ul>|<ul><li>var band = "the 1975" </li><li>var song = "Somebody Else"</li><li>var url = "https://music.youtube.com"</li></ul> | User successfully play a song | As Expected | PASS |
 
 <br>
 There is 2 main file and 1 file properties : <br>
